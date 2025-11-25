@@ -1,0 +1,14 @@
+def maior_livro(p1, p2, p3, p4, p5):
+    return max(p1, p2, p3, p4, p5)
+
+# Programa principal
+# Lendo os 5 números do usuário
+p1 = int(input("Digite o número de páginas do 1º livro: "))
+p2 = int(input("Digite o número de páginas do 2º livro: "))
+p3 = int(input("Digite o número de páginas do 3º livro: "))
+p4 = int(input("Digite o número de páginas do 4º livro: "))
+p5 = int(input("Digite o número de páginas do 5º livro: "))
+
+maior = maior_livro(p1, p2, p3, p4, p5)
+
+print("O maior número de páginas é:", maior)
